@@ -1,0 +1,13 @@
+.bulle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.bubulle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: blue;
+}
