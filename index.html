@@ -6,16 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="blopblop.css">
-    <title>Document</title> 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    
-
- 
+    <title>Document</title>     
 </head>
+    
 <body onload="inLoad()">
-    <div id="container">
-        <div class="bulle" id"bulle" onclick="hideElement(this)" ></div>
-        <div class="bubulle" id="bubulle" onclick="hideElement(this)"></div>
+    <div class="container" id="container">
+        <div class="containerCompteur">
+            <p class="textBubble">Tu as éclaté </p><p id="compteur">0</p><p class="textBubble"> bubulles</p>
+        </div>
+        <div class="bulle" id="bulle" onclick="hideElement(this)" ></div>
+        <div class="mechantBlop" id="mechantBlop" onclick="showE()"></div>
+        <div class="bubulle" id="bubulle" onclick="hideElement(this)"></div>  
     </div>
 <script src="blopblop.js"></script>    
 </body>
