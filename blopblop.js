@@ -1,6 +1,5 @@
 
 
-
 var compteur = 0;
 function inLoad() {
     var container = document.getElementById("container");
@@ -28,7 +27,8 @@ function hideElement(item) {
     //             bubulle.style.display = "none";
     //         }  
     //     }
-        if (blop.style.display== "hidden") {
+    console.log(blop);
+        if (blop.style.display== "none") {
             blop.style.display = "block";
         } else {
             blop.style.display = "none";
@@ -36,4 +36,3 @@ function hideElement(item) {
             document.getElementById("compteur").innerHTML = compteur;
         } 
     }
-    
